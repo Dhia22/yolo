@@ -7,9 +7,9 @@
 #     └── coco  ← downloads here (20.1 GB)
 
 
-train: ../datasets/engine/images/train/
-val:  ../datasets/engine/images/val/
-test: ../datasets/engine/images/test/
+train: ../yolo/datasets/engine/images/train/
+val:  ../yolo/datasets/engine/images/val/
+test: ../yolo/datasets/engine/images/test/
 
 # Classes
 nc: 3  # number of classes
