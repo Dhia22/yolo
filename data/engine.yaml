@@ -1,0 +1,18 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# COCO 2017 dataset http://cocodataset.org by Microsoft
+# Example usage: python train.py --data coco.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco  ← downloads here (20.1 GB)
+
+
+train: ../datasets/engine/images/train/
+val:  ../datasets/engine/images/val/
+test: ../datasets/engine/images/test/
+
+# Classes
+nc: 3  # number of classes
+names: ['bg', 'text', 'img']  # class names
+
+
